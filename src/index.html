@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="home">Home</button>
+        <button id="menu">Menu</button>
+        <button id="contact">Contact</button>
+      </nav>
+    </header>
+    <div class="middle">
+      <h1>UrbanEats</h1>
+      ;
+      <h2>Our features</h2>
+    </div>
+
+    <div class="content">
+      <!-- <div class="contentbox">
+               
+                <div class="contenttext">
+                    <h3>Burger Night</h3>
+                    <p>
+                        We are hosting another Burger Night on Monday 5/20/24 from 5:00pm - 9:00pm. Reservations recommended on Yelp! (5:00pm - 8:30pm slots available), and we will accept as many walk-ins as we can! Delicious burgers made from premium ingredients, wine and oyster specials, and more! Don’t miss out!
+                    </p>
+                </div>
+                <div class="contenttext">
+                    <h3>Dinner</h3>
+                    <p>We are now open for dinner service Thursday through Sunday! We’ll be accepting limited walk-ins and reservations on Yelp. 
+                        For brunch, we still do not take reservations as we seat guests on a first come first serve basis. However, you can join our Yelp! Waitlist to save your spot ahead of time (same day only)!</p>
+
+                </div>
+            </div>
+            <div class="contentbox" style="background-color:crimson;">
+                <div class="contenttext">
+                    <h3>parking Hours</h3>
+                    <p>DO NOT park in Rick’s parking lot - they WILL TOW at all times of the day! The open parking lot directly behind our restaurant has 2 hour free parking, or is free after 5:00PM. Nearby, South and North of Main St on 1st St, there are two parking structures with 4 hour free parking. </p>
+
+                    
+                </div>
+                <div class="contenttext">
+                    <h3>Food delivery</h3>
+                    <p>Welcome to Arrah, a city in Bihar known for its vibrant food culture! Whether you're a local or a traveler passing through, you're in for a treat. With its unique fusion of flavors and diverse culinary traditions, Arrah offers a feast that will leave you craving for more.</p>
+
+                </div>
+            </div>
+            <div class="contentbox">
+                <div class="contenttextmini">
+                    <h3>Our Locations</h3>
+                    <p>112 W Main St.
+                        Alarka, CA 91821 </p>
+
+                    
+                </div>
+                <div class="contenttextmini">
+                    <h3>contact</h3>
+                    <p>+91 9223833423
+                        vivek@gmail.com</p>
+
+                </div>
+            </div> -->
+    </div>
+    <div class="footer"></div>
+
+    <!-- <script>
+            let homepage =()=>{
+            let content=document.querySelector('.content');
+            let contentbox1=document.createElement('div');
+            let contenttext1=document.createElement('div');
+            let contenttext1h1=document.createElement('h1');
+            contenttext1h1.innerHTML="Burger Night";
+            contenttext1h1.classList.add('heading');
+            let contenttextpara1=document.createElement('p');
+            contenttextpara1.innerHTML=" We are hosting another Burger Night on Monday 5/20/24 from 5:00pm - 9:00pm. Reservations recommended on Yelp! (5:00pm - 8:30pm slots available), and we will accept as many walk-ins as we can! Delicious burgers made from premium ingredients, wine and oyster specials, and more! Don’t miss out!"
+            contenttext1.appendChild(contenttext1h1);
+            contenttext1.appendChild(contenttextpara1);
+            contentbox1.appendChild(contenttext1);
+            let contenttext12=document.createElement('div');
+            let contenttext12h1=document.createElement('h1');
+            contenttext12h1.innerHTML="Dinner";
+            contenttext12h1.classList.add('heading');
+            let contenttextpara12=document.createElement('p');
+            contenttextpara12.innerHTML=" We are now open for dinner service Thursday through Sunday! We’ll be accepting limited walk-ins and reservations on Yelp. For brunch, we still do not take reservations as we seat guests on a first come first serve basis. However, you can join our Yelp! Waitlist to save your spot ahead of time (same day only)!"
+            contenttext12.appendChild(contenttext12h1);
+            contenttext12.appendChild(contenttextpara12);
+            contentbox1.appendChild(contenttext12);
+            content.appendChild(contentbox1);
+            let contentbox2=document.createElement('div');
+            let contenttext2=document.createElement('div');
+            let contenttext2h1=document.createElement('h1');
+            contenttext2h1.innerHTML="Parking Hours";
+            contenttext2h1.classList.add('heading');
+            let contenttextpara2=document.createElement('p');
+            contenttextpara2.innerHTML=" DO NOT park in Rick’s parking lot - they WILL TOW at all times of the day! The open parking lot directly behind our restaurant has 2 hour free parking, or is free after 5:00PM. Nearby, South and North of Main St on 1st St, there are two parking structures with 4 hour free parking."
+            contenttext2.appendChild(contenttext2h1);
+            contenttext2.appendChild(contenttextpara2);
+            contentbox2.appendChild(contenttext2);
+            let contenttext22=document.createElement('div');
+            let contenttext22h1=document.createElement('h1');
+            contenttext22h1.innerHTML="Delivery";
+            contenttext22h1.classList.add('heading');
+            let contenttextpara22=document.createElement('p');
+            contenttextpara22.innerHTML=" Welcome to Arrah, a city in Bihar known for its vibrant food culture! Whether you're a local or a traveler passing through, you're in for a treat. With its unique fusion of flavors and diverse culinary traditions, Arrah offers a feast that will leave you craving for more."
+            contenttext22.appendChild(contenttext22h1);
+            contenttext22.appendChild(contenttextpara22);
+            contentbox2.appendChild(contenttext22);
+            content.appendChild(contentbox2);
+            let contentbox3=document.createElement('div');
+            let contenttext3=document.createElement('div');
+            let contenttext3h1=document.createElement('h1');
+            contenttext3h1.innerHTML="our Location";
+            contenttext3h1.classList.add('heading');
+            let contenttextpara3=document.createElement('p');
+            contenttextpara3.innerHTML="112 W Main St.Alarka, CA 91821 "
+            contenttext3.appendChild(contenttext3h1);
+            contenttext3.appendChild(contenttextpara3);
+            contentbox3.appendChild(contenttext3);
+            let contenttext32=document.createElement('div');
+            let contenttext32h1=document.createElement('h1');
+            contenttext32h1.innerHTML="Contact";
+            contenttext32h1.classList.add('heading');
+            let contenttextpara32=document.createElement('p');
+            contenttextpara32.innerHTML="+91 9223833423vivek@gmail.com"
+            contenttext32.appendChild(contenttext32h1);
+            contenttext32.appendChild(contenttextpara32);
+            contentbox3.appendChild(contenttext32);
+            content.appendChild(contentbox3);
+            };
+            export {homepage};
+        </script> -->
+  </body>
+</html>
